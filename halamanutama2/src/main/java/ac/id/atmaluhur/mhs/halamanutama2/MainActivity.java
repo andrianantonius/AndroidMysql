@@ -1,10 +1,9 @@
-package ac.id.atmaluhur.mhs.latihan_retrofit_1922500215;
+package ac.id.atmaluhur.mhs.halamanutama2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,20 +13,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void barang(View view){
-        Intent i = new Intent( MainActivity.this, barang.class);
+
+    public void barang(View View) {
+        Intent i = new Intent(MainActivity.this, barang.class);
         startActivity(i);
     }
-    public void pelanggan(View view){
-        Intent i = new Intent( MainActivity.this, pelanggan.class);
+
+    public void pelanggan(View View) {
+        Intent i = new Intent(MainActivity.this, pelanggan.class);
         startActivity(i);
     }
-    public void penjualan(View view){
-        Intent i = new Intent( MainActivity.this, penjualan.class);
+
+    public void penjualan(View View) {
+        Intent i = new Intent(MainActivity.this, penjualan.class);
         startActivity(i);
     }
-    public void laporan(View view){
-        Intent i = new Intent( MainActivity.this, laporan.class);
+
+    public void laporan(View View) {
+        Intent i = new Intent(MainActivity.this, laporan.class);
         startActivity(i);
     }
 }
